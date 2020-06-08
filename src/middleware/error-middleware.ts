@@ -1,4 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
+
 import { HTTP_STATUS_CODES } from '../util/http-status-codes';
 
 class ErrorMiddleware {

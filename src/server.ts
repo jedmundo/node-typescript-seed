@@ -3,8 +3,8 @@ import http from 'http';
 require('dotenv').config();
 
 import app from './app';
-import { ErrorEventHandler } from './event-handlers/ErrorEventHandler';
-import { ListeningEventHandler } from './event-handlers/ListeningEventHandler';
+import { ErrorEventHandler } from './event-handlers/error-event-handler';
+import { ListeningEventHandler } from './event-handlers/listening-event-handler';
 
 const port = process.env.PORT || 8080;
 

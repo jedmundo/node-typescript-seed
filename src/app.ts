@@ -2,8 +2,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 
-import ErrorMiddleware from './middleware/ErrorMiddleware';
-import PageNotFoundMiddleware from './middleware/PageNotFoundMiddleware';
+import ErrorMiddleware from './middleware/error-middleware';
+import PageNotFoundMiddleware from './middleware/page-not-found-middleware';
 
 import TodoRouter from './routers/todo.router';
 
